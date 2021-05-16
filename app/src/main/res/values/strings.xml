@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Senggonku</string>
+    <string name="background">Background</string>
+    <string name="batal">batal</string>
+    <string name="diagnosa">diagnosa</string>
+    <string name="backdrop">backdrop</string>
+    <string name="back">back</string>
+    <string name="version">Ver 1.0.0</string>
+    <string name="logo">logo</string>
+</resources>

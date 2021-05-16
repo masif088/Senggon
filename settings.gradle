@@ -1,0 +1,2 @@
+include ':app', ':admin'
+rootProject.name='Senggon'

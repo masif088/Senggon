@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".activities.ActivityDiagnosa">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_list"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:background="@drawable/button_1"
+                android:textSize="@dimen/font_1"
+                android:id="@+id/btn_back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="@string/batal"/>
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:background="@drawable/button_1"
+                android:textSize="@dimen/font_1"
+                android:id="@+id/btn_diagnosa"
+                android:layout_marginStart="20dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/diagnosa"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
